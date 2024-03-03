@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+  background-color: red;
+  padding: 15px;
+  border-radius: 8px;
+}
+li {
+  display: inline-block;
+  margin-right: 10px;
+}
+a {
+  text-decoration: none;
+  font-size: larger;
+  color: blue;
+  font-weight: bold;
+  outline: silver 2px solid;
+  background-color: indianred;
+  padding: 5px;
+  border-radius: 12px;
+}
+body {
+  background-image: url("https://cdn.vox-cdn.com/thumbor/SLhFTTOcnZnb-PPIiJumu0WDY4Y=/85x0:1014x619/1200x800/filters:focal(85x0:1014x619)/cdn.vox-cdn.com/uploads/chorus_image/image/45660688/spiderman-marvel.0.0.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.separator {
+  height: 30px;
+  width: 100%;
+  background-color: blue;
+  margin-top: 500px;
+  margin-bottom: 0px;
+  border-radius: 12px;
+}
+.videocontainer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0px;
+  padding-bottom: 30px;
+  background-color: rgba(255, 99, 71, 0.563);
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-right: 30px;
+  justify-content: space-between;
+  border-radius: 12px;
+  width: 100%;
+}
+
+iframe {
+  border-radius: 12px;
+}
+.video {
+  width: 30%;
+  border-radius: 12px;
+}
+.bigtext {
+  font-size: 300%;
+  font-weight: bold;
+  color: rgb(31, 31, 128);
+}
+
+/* style for info.html */
+.info {
+  background: linear-gradient(red, blue);
+  color: white;
+}
+
+/* style for storyline.html */
+
+.storyline {
+  background: linear-gradient(blue, red);
+  color: white;
+}
+
+/* style for merch.html */
+
+.img1 {
+  float: left;
+  margin: 5px;
+}
+
+.merch-section-1 {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  background-color: rgba(0, 15, 177, 0.618);
+}
+.img2 {
+  float: right;
+  margin: 5px;
+}
